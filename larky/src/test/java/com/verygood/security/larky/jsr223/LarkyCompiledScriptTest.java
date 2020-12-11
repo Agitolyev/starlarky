@@ -108,7 +108,8 @@ public class LarkyCompiledScriptTest {
         name="concat3",
         parameters = {
             @Param(name = "input1"),
-            @Param(name = "input2")
+            @Param(name = "input2"),
+            @Param(name = "input3")
         }
     )
     public String concat(String a, String b, String c) {
